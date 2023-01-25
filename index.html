@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- tailwind css -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.47.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                background: '#020C13',
+                yellow: '#FDC221',
+              }
+            }
+          }
+        }
+      </script>
+
+    <title>Outrival media</title>
+
+</head>
+<body class=" mx-auto bg-background">
+
+    <!-- header starts -->
+    <header class="lg:w-10/12 mx-auto text-white">
+        <div class="navbar py-5">
+            <div class="navbar-start justify-start items-center">            
+              <a class="btn btn-ghost normal-case text-xl"><img src="./images/logo.png" alt=""></a>
+            </div>
+            <div class="navbar-end hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>About</a></li>
+                <li><a>Services</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+                <li> <a class="btn btn-outline text-yellow ">Get started</a></li>
+             
+              </ul>
+            </div>
+            <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </label>
+                <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a>About</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                    <li> <a class="btn btn-outline">Get started</a></li>              
+                </ul>
+              </div>
+            
+          </div>
+    </header>
+
+
+    <!-- banner starts -->
+    <section class="min-h-screen relative">
+        <div class="hero  ">
+            <div class="">
+                <div class="max-w-md mt-20 ">
+                    <img src="./images/Approach.png" alt="">       
+                  </div>
+            </div>
+            <div class="flex justify-between ">
+                <img class=" w-50 h-60 absolute left-0 bottom-15" src="./images/Group 2020.png" alt="">
+                <img class=" w-100 h-80 absolute right-0 bottom-28" src="./images/Group 2021.png" alt="">
+            </div>
+          </div>
+    </section>
+
+    <!-- marketing section starts here -->
+    
+
+
+</body>
+</html>
