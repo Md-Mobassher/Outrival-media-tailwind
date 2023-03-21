@@ -33,30 +33,32 @@
 
     <!-- header starts -->
     <header class="relative text-white container">
-            <div class="navbar py-5 lg:px-20 mx-auto">
-            <div class="navbar-start justify-start items-center">            
-              <a class="btn btn-ghost normal-case text-xl"><img src="./images/logo.png" alt=""></a>
+            <div class="navbar py-5 lg:px-20 justify-between">
+            <div class="navbar-start  items-end">            
+              <a class="btn btn-ghost normal-case text-xl"><img class="lg:w-52 w-36" src="./images/logo.png" alt=""></a>
             </div>
-            <div class="navbar-end hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
-                <li><a>About</a></li>
-                <li><a>Services</a></li>
-                <li><a>Blog</a></li>
-                <li><a>Contact</a></li>
-                <li> <a class="btn btn-outline text-yellow ">Get started</a></li>
-             
-              </ul>
-            </div>
-            <div class="dropdown">
+            
+            <div class="dropdown dropdown-end ">
                 <label tabindex="0" class="btn btn-ghost lg:hidden">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </label>
-                <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow  rounded-lg bg-gradient-to-tr from-indigo-500 via-purple-500 to-orange-500 w-52">
                     <li><a>About</a></li>
                     <li><a>Services</a></li>
                     <li><a>Blog</a></li>
                     <li><a>Contact</a></li>
                     <li> <a class="btn btn-outline">Get started</a></li>              
+                </ul>
+              </div>
+
+              <div class="navbar-end hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                  <li><a>About</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+                  <li> <a class="btn btn-outline text-yellow ">Get started</a></li>
+               
                 </ul>
               </div>
             
